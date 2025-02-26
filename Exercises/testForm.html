@@ -1,0 +1,30 @@
+<html>
+    <body>
+        <h1>INSERTING DATA FROM WEB FORM INTO DATABASE</h1>
+        <form name="form_contoh" method="post" action="testProcess1.php">
+        <p>What is your name:
+            <input name = names type = text size=15 >
+        </p>
+        <p>What OS do you use: 
+            <br><br>
+            <select name = os>
+            <option selected>-Select OS type-</option>
+            <option value="Windows">Windows OS</option>
+            <option value="Mac">Mac OS</option>
+            </select>
+        </p>
+        <p>Have you learn php:
+            <br>
+            <input type=radio name=php value="I have learn PHP">Yes
+            <br> 
+            <input type=radio name=php value="I havent learn PHP">No</p>
+        <P>What are your favorite web:
+            <label>
+                <textarea name="web" cols="45" rows="5" ></textarea>
+            </label>
+            </P>
+        <input type="submit" name="submit" value="Submit">
+        <input type="submit" name="reset" id="reset" value="Reset"> 
+        </form>
+    </body>
+</html>
