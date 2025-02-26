@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>Biodata</title>
+</head>
+<body>
+<h1>Inserting Data in Form</h1>
+<hr>
+<form name=form_example method="post" action="InsertData.php">
+  <table border="1" cellpadding="10">
+    <tr>
+        <td>Id Customer:</td>
+        <td><input type="int" name="idCust" placeholder="Enter your ID" required></td>
+    </tr>
+    <tr>
+      <td>Name:</td>
+      <td><input type="text" name="name" placeholder="Insert your name" autofocus required></td>
+    </tr>
+    <tr>
+      <td>Password</td>
+      <td><input type="password" name="password" placeholder="Insert your password" required></td>
+    </tr>  
+    <tr>
+      <td>Address:</td>
+      <td><textarea name="address" cols="50" rows="5" placeholder="Insert your address" required></textarea></td>
+    </tr>  
+  </table>
+<hr>
+<p>
+  <input type="submit" name="Submit" value="Update">
+  <input type="reset" name="Reset" value="Reset">
+</p>
+</form>
+<hr>
+Return to<a href = "PracticeLabMenu.html"> Main Menu</a>
+
+ 
+</body>
+</html>

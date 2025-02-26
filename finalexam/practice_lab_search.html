@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>Biodata</title>
+</head>
+<body>
+<h1>Search Data in Form</h1>
+<h6>Fill any one of the data.</h6>
+
+<form name=form_example method="post" action="SearchData.php">
+  <table border="1" cellpadding="10">
+    <tr>
+        <td>Id Customer:</td>
+        <td><input type="int" name="idCust" placeholder="Enter your ID" ></td>
+    </tr>
+    <tr>
+      <td>Name:</td>
+      <td><input type="text" name="name" placeholder="Insert your name" ></td>
+    </tr>
+    <tr>
+      <td>Address:</td>
+      <td><textarea name="address" cols="50" rows="5" placeholder="Insert your address" ></textarea></td>
+    </tr>  
+  </table>
+<hr>
+<p>
+  <input type="submit" name="Search" value="Search">
+  <input type="reset" name="Reset" value="Reset">
+</p>
+</form>
+
+ 
+</body>
+</html>
